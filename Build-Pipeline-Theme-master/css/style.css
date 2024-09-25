@@ -231,7 +231,7 @@ span img[title='trigger'] {
  * Build card status types
  */
 .SUCCESS {
-    background-color: limegreen;
+    background-color: red;
 }
 
 .FAILURE {
