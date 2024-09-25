@@ -93,7 +93,7 @@ div.pipeline-wrapper {
     margin: 18px 0 18px 0;
     border: 2px solid #333;
     border-radius: 15px;
-    background-color: cornflowerblue;
+    background-color: khaki;
 }
 
 div.pipeline-wrapper div.pipeline {
@@ -136,6 +136,7 @@ div.pipeline-wrapper.header .build-info {
 }
 
 .revision {
+    background-color: antiquewhite;
     box-shadow: none;
     border: 2px solid #444;
     border-radius: 10px;
@@ -230,14 +231,15 @@ span img[title='trigger'] {
 /*
  * Build card status types
  */
+/* InProgress deeppink */
 .SUCCESS {
-    background-color: red;
+    background-color: darkcyan;
 }
 
 .FAILURE {
-    background-color: orangered;
+    background-color: crimson;
 }
 
 .PENDING, .MANUAL {
-    background-color: #aaa;
+    background-color: darkseagreen;
 }
